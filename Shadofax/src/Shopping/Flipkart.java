@@ -80,10 +80,10 @@
 				System.out.println("g) Order Placing....");
 				System.out.println(driver.getCurrentUrl());
 				//Login
-				driver.findElement(By.xpath("//input[@type='text']")).sendKeys("6362364295");
+				driver.findElement(By.xpath("//input[@type='text']")).sendKeys("");
 				driver.findElement(By.xpath("//button[@type='submit']")).click();
 				Thread.sleep(1000);
-				driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Manat@123");
+				driver.findElement(By.xpath("//input[@type='password']")).sendKeys("");
 				System.out.println("h) Logged in successfully");
 				//Delivery address
 				Thread.sleep(1000);
